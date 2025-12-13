@@ -56,21 +56,28 @@ const Experience = () => {
           <h2>Experience</h2>
         </div>
 
-        <div className="experience-list">
+        <div className="timeline">
           {experiences.map((exp, index) => (
-            <article key={index} className="experience-item">
-              <div className="exp-header">
-                <h3>{exp.title}</h3>
-                <span className="period">{exp.period}</span>
+            <div key={index} className="timeline-item">
+              <div className="timeline-marker">
+                <div className="timeline-dot"></div>
               </div>
-              <h4>{exp.company}</h4>
-              <p className="location">{exp.location}</p>
-              <ul className="description-list">
-                {exp.description.map((item, idx) => (
-                  <li key={idx}>{item}</li>
-                ))}
-              </ul>
-            </article>
+              <div className="timeline-content">
+                <div className="exp-header">
+                  <div className="exp-title-group">
+                    <h3>{exp.title}</h3>
+                    <h4>{exp.company}</h4>
+                    <p className="location">{exp.location}</p>
+                  </div>
+                  <span className="period">{exp.period}</span>
+                </div>
+                <ul className="description-list">
+                  {exp.description.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           ))}
         </div>
       </div>
