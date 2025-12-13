@@ -36,14 +36,23 @@ const Leadership = () => {
   return (
     <section id="leadership" className="leadership">
       <div className="container-wide">
-        <h2>Leadership & Involvement</h2>
-        {leadership.map((item, index) => (
-          <article key={index} className="leadership-item">
-            <h3>{item.title} · {item.organization}</h3>
-            <p className="lead-meta">{item.location} · {item.period}</p>
-            <p className="lead-desc">{item.description}</p>
-          </article>
-        ))}
+        <div className="section-header">
+          <h2>Leadership & Involvement</h2>
+        </div>
+
+        <div className="leadership-list">
+          {leadership.map((item, index) => (
+            <article key={index} className="leadership-item">
+              <div className="lead-header">
+                <h3>{item.title}</h3>
+                <span className="period">{item.period}</span>
+              </div>
+              <h4>{item.organization}</h4>
+              <p className="location">{item.location}</p>
+              <p className="description">{item.description}</p>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -21,18 +21,22 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <h2>Skills</h2>
+        <div className="section-header">
+          <h2>Skills</h2>
+        </div>
+
         <div className="skills-grid">
           <div className="skill-category">
-            <h3>Technical</h3>
+            <h3>Technical Skills</h3>
             <ul>
               {technical.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
             </ul>
           </div>
+
           <div className="skill-category">
-            <h3>Strengths</h3>
+            <h3>Core Strengths</h3>
             <ul>
               {strengths.map((skill, index) => (
                 <li key={index}>{skill}</li>
