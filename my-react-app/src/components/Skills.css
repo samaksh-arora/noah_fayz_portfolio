@@ -1,0 +1,31 @@
+.skills {
+  padding: 3rem 1.5rem;
+  background: var(--light-bg);
+  color: var(--michigan-blue);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skill-category {
+  flex: 1 1 240px;
+  min-width: 220px;
+}
+
+.skill-category h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.skill-category ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.94rem;
+}
+
+.skill-category li {
+  margin-bottom: 0.3rem;
+}

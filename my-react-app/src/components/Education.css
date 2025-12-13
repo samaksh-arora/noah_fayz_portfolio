@@ -1,0 +1,39 @@
+.education {
+  padding: 3rem 1.5rem;
+  background: var(--white);
+  color: var(--michigan-blue);
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.education-item .location {
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.education-item .degree {
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.education-item .period {
+  margin: 0.15rem 0 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-gray);
+}
+
+.education-item .detail {
+  margin: 0.15rem 0;
+  font-size: 0.9rem;
+}

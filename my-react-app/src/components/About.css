@@ -1,0 +1,25 @@
+.about {
+  padding: 3rem 1.5rem;
+  background: var(--light-bg);
+  color: var(--michigan-blue);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: var(--michigan-blue);
+}
+
+.about p {
+  margin-bottom: 0.75rem;
+  font-size: 0.98rem;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}

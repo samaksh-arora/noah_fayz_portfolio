@@ -1,0 +1,39 @@
+.experience {
+  padding: 3rem 1.5rem;
+  background: var(--light-bg);
+  color: var(--michigan-blue);
+}
+
+.container-wide {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-item {
+  border-left: 4px solid var(--michigan-yellow);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.exp-meta {
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.experience-item ul {
+  margin: 0.5rem 0 0 1rem;
+  font-size: 0.92rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.3rem;
+}
